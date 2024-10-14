@@ -5,6 +5,8 @@ import performanceImage from './performance.jpg'; // Ensure the image path is co
 import axios from "axios";
 import { Toaster, toast } from 'react-hot-toast';
 
+//adding a sample comment to trigger deployment
+
 
 const scrollToSection = (elementId: string) => {
   const element = document.getElementById(elementId);
