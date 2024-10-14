@@ -37,7 +37,7 @@ export default function LandingPage() {
   const handleSubmit =async (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log("this should work");
+    console.log("this will work");
     console.log('Submitted:', { username, email });
     console.log(`${process.env.REACT_APP_API_URL}/signup`);
     const response = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, {
